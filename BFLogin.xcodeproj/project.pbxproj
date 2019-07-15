@@ -3,29 +3,46 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0643F24D22CDD5C800A161AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0643F24C22CDD5C800A161AC /* AppDelegate.m */; };
-		0643F25022CDD5C800A161AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0643F24F22CDD5C800A161AC /* ViewController.m */; };
-		0643F25322CDD5C800A161AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0643F25122CDD5C800A161AC /* Main.storyboard */; };
 		0643F25522CDD5CA00A161AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0643F25422CDD5CA00A161AC /* Assets.xcassets */; };
 		0643F25822CDD5CA00A161AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0643F25622CDD5CA00A161AC /* LaunchScreen.storyboard */; };
 		0643F25B22CDD5CA00A161AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0643F25A22CDD5CA00A161AC /* main.m */; };
+		06A653D522DC1CE8003B6FDA /* image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A653D422DC1CE8003B6FDA /* image.xcassets */; };
+		06C7B2F022CEFAC800ACE86C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C7B2EE22CEFAC800ACE86C /* LoginViewController.m */; };
+		06C7B2F122CEFAC800ACE86C /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06C7B2EF22CEFAC800ACE86C /* LoginViewController.xib */; };
+		06C7B2FA22CEFB4200ACE86C /* ForgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C7B2F822CEFB4200ACE86C /* ForgetViewController.m */; };
+		06C7B2FB22CEFB4200ACE86C /* ForgetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06C7B2F922CEFB4200ACE86C /* ForgetViewController.xib */; };
+		06C7B2FF22CEFB6200ACE86C /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C7B2FD22CEFB6200ACE86C /* RegisterViewController.m */; };
+		06C7B30022CEFB6200ACE86C /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06C7B2FE22CEFB6200ACE86C /* RegisterViewController.xib */; };
+		1BFD84EF3744BAA1705CC783 /* Pods_BFLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DFDD12F4ABD0C0A3763EF0 /* Pods_BFLogin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0643F24822CDD5C800A161AC /* BFLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BFLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0643F24B22CDD5C800A161AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0643F24C22CDD5C800A161AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0643F24E22CDD5C800A161AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0643F24F22CDD5C800A161AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0643F25222CDD5C800A161AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0643F25422CDD5CA00A161AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0643F25722CDD5CA00A161AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0643F25922CDD5CA00A161AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0643F25A22CDD5CA00A161AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06A653D422DC1CE8003B6FDA /* image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = image.xcassets; sourceTree = "<group>"; };
+		06C7B2ED22CEFAC800ACE86C /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		06C7B2EE22CEFAC800ACE86C /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		06C7B2EF22CEFAC800ACE86C /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		06C7B2F722CEFB4200ACE86C /* ForgetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForgetViewController.h; sourceTree = "<group>"; };
+		06C7B2F822CEFB4200ACE86C /* ForgetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForgetViewController.m; sourceTree = "<group>"; };
+		06C7B2F922CEFB4200ACE86C /* ForgetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgetViewController.xib; sourceTree = "<group>"; };
+		06C7B2FC22CEFB6200ACE86C /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		06C7B2FD22CEFB6200ACE86C /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		06C7B2FE22CEFB6200ACE86C /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		06CC27BE22DC23EA003F04B1 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		18DFDD12F4ABD0C0A3763EF0 /* Pods_BFLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BFLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		608D05F3E9545A625836EF36 /* Pods-BFLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BFLogin.debug.xcconfig"; path = "Target Support Files/Pods-BFLogin/Pods-BFLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		7FE88388FD9E7AA89C7109E1 /* Pods-BFLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BFLogin.release.xcconfig"; path = "Target Support Files/Pods-BFLogin/Pods-BFLogin.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BFD84EF3744BAA1705CC783 /* Pods_BFLogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +62,8 @@
 			children = (
 				0643F24A22CDD5C800A161AC /* BFLogin */,
 				0643F24922CDD5C800A161AC /* Products */,
+				58E19B67C1331412584C12ED /* Pods */,
+				1C840E144C7B571F0E93362A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +78,50 @@
 		0643F24A22CDD5C800A161AC /* BFLogin */ = {
 			isa = PBXGroup;
 			children = (
+				0643F26122CDD63A00A161AC /* ViewController */,
 				0643F24B22CDD5C800A161AC /* AppDelegate.h */,
 				0643F24C22CDD5C800A161AC /* AppDelegate.m */,
-				0643F24E22CDD5C800A161AC /* ViewController.h */,
-				0643F24F22CDD5C800A161AC /* ViewController.m */,
-				0643F25122CDD5C800A161AC /* Main.storyboard */,
 				0643F25422CDD5CA00A161AC /* Assets.xcassets */,
 				0643F25622CDD5CA00A161AC /* LaunchScreen.storyboard */,
 				0643F25922CDD5CA00A161AC /* Info.plist */,
 				0643F25A22CDD5CA00A161AC /* main.m */,
+				06A653D422DC1CE8003B6FDA /* image.xcassets */,
 			);
 			path = BFLogin;
+			sourceTree = "<group>";
+		};
+		0643F26122CDD63A00A161AC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				06C7B2ED22CEFAC800ACE86C /* LoginViewController.h */,
+				06C7B2EE22CEFAC800ACE86C /* LoginViewController.m */,
+				06C7B2EF22CEFAC800ACE86C /* LoginViewController.xib */,
+				06C7B2F722CEFB4200ACE86C /* ForgetViewController.h */,
+				06C7B2F822CEFB4200ACE86C /* ForgetViewController.m */,
+				06C7B2F922CEFB4200ACE86C /* ForgetViewController.xib */,
+				06C7B2FC22CEFB6200ACE86C /* RegisterViewController.h */,
+				06C7B2FD22CEFB6200ACE86C /* RegisterViewController.m */,
+				06C7B2FE22CEFB6200ACE86C /* RegisterViewController.xib */,
+				06CC27BE22DC23EA003F04B1 /* Header.h */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1C840E144C7B571F0E93362A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18DFDD12F4ABD0C0A3763EF0 /* Pods_BFLogin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58E19B67C1331412584C12ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				608D05F3E9545A625836EF36 /* Pods-BFLogin.debug.xcconfig */,
+				7FE88388FD9E7AA89C7109E1 /* Pods-BFLogin.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0643F25E22CDD5CA00A161AC /* Build configuration list for PBXNativeTarget "BFLogin" */;
 			buildPhases = (
+				1E3AD5F1F5E3C791D987DD96 /* [CP] Check Pods Manifest.lock */,
 				0643F24422CDD5C800A161AC /* Sources */,
 				0643F24522CDD5C800A161AC /* Frameworks */,
 				0643F24622CDD5C800A161AC /* Resources */,
+				A1C1DABE9067D3A441267754 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,20 +183,67 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06C7B2FB22CEFB4200ACE86C /* ForgetViewController.xib in Resources */,
+				06C7B30022CEFB6200ACE86C /* RegisterViewController.xib in Resources */,
+				06C7B2F122CEFAC800ACE86C /* LoginViewController.xib in Resources */,
+				06A653D522DC1CE8003B6FDA /* image.xcassets in Resources */,
 				0643F25822CDD5CA00A161AC /* LaunchScreen.storyboard in Resources */,
 				0643F25522CDD5CA00A161AC /* Assets.xcassets in Resources */,
-				0643F25322CDD5C800A161AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E3AD5F1F5E3C791D987DD96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BFLogin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1C1DABE9067D3A441267754 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BFLogin/Pods-BFLogin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BFLogin/Pods-BFLogin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BFLogin/Pods-BFLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0643F24422CDD5C800A161AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0643F25022CDD5C800A161AC /* ViewController.m in Sources */,
+				06C7B2FF22CEFB6200ACE86C /* RegisterViewController.m in Sources */,
+				06C7B2F022CEFAC800ACE86C /* LoginViewController.m in Sources */,
+				06C7B2FA22CEFB4200ACE86C /* ForgetViewController.m in Sources */,
 				0643F25B22CDD5CA00A161AC /* main.m in Sources */,
 				0643F24D22CDD5C800A161AC /* AppDelegate.m in Sources */,
 			);
@@ -150,14 +252,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0643F25122CDD5C800A161AC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0643F25222CDD5C800A161AC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0643F25622CDD5CA00A161AC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -220,7 +314,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -273,7 +367,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -283,11 +377,13 @@
 		};
 		0643F25F22CDD5CA00A161AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 608D05F3E9545A625836EF36 /* Pods-BFLogin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A4EZAZ6ES2;
 				INFOPLIST_FILE = BFLogin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +396,13 @@
 		};
 		0643F26022CDD5CA00A161AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE88388FD9E7AA89C7109E1 /* Pods-BFLogin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A4EZAZ6ES2;
 				INFOPLIST_FILE = BFLogin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
